@@ -1,1 +1,0 @@
-# Performance and expectancy calculations
