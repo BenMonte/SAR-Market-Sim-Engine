@@ -46,6 +46,44 @@ Loaded 830 trades from TradeDatabase.xlsx
   Std Dev R:             3.11
   Max Consec. Losses:    18
   Max Drawdown:          36.88%
+
+=== LLM Strategy Diagnostics ===
+### Structural Strengths
+- High reward-to-risk ratio (Avg Win 4.00R vs Avg Loss -0.92R)
+- Profit factor of 1.45 confirms aggregate profitability
+
+### Structural Weaknesses
+- Low win rate (25.06%) requires psychological resilience
+- Max drawdown of 36.88% indicates significant equity retracement periods
+
+### Risk Profile
+- High-risk profile driven by large drawdowns and low win rate
+- Profitability depends on outsized winners relative to frequent small losses
+
+### Long-term Sustainability
+- Sustainable if capital reserves can absorb drawdowns
+- Requires strict discipline and consistent trade execution
+
+### Trade Distribution Asymmetry
+- Highly asymmetric: largest win (25.76R) far exceeds largest loss (-4.24R)
+
+### Volatility of Returns
+- Std Dev of 3.11R indicates significant variability in outcomes
+
+### Tail Risk Exposure
+- Positive tail risk from large winners is beneficial
+- 18 consecutive losses highlights negative tail risk
+
+### Psychological Difficulty
+- Low win rate and long losing streaks make this system mentally demanding
+
+### Capital Efficiency
+- Requires significant capital buffer to withstand drawdowns
+
+### Areas for Improvement
+- Refine entry criteria to improve win rate
+- Implement tighter risk controls to reduce max drawdown
+- Consider dynamic position sizing to manage volatility
 ```
 
 ## Quickstart
