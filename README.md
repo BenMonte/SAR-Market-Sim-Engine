@@ -102,9 +102,3 @@ Loaded 830 trades from TradeDatabase.xlsx
    ```
    If not configured, AI diagnostics will be skipped and all deterministic analytics will still run normally.
 
-## Future Improvements
-
-- Add time-based analytics (monthly/quarterly breakdowns)
-- Visualize the equity curve and drawdown periods
-- Support filtering by ticker, sector, or date range
-- Export reports to PDF or HTML
