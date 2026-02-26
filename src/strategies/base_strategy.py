@@ -1,1 +1,1 @@
-# Base class for trading strategies
+# Strategy logic abstraction  
