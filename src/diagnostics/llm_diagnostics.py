@@ -49,7 +49,10 @@ def build_diagnostics_prompt(metrics: dict) -> list[dict]:
         "8. Psychological difficulty of the system\n"
         "9. Capital efficiency implications\n"
         "10. Specific areas for improvement\n\n"
-        "Be direct, data-driven, and actionable."
+        "Be direct, data-driven, and actionable.\n\n"
+        "Format the output as plain text optimized for terminal display. "
+        "Do not use Markdown syntax (no #, **, `, or - bullets). "
+        "Use numbered sections, plain dashes, and line breaks for readability."
     )
 
     return [

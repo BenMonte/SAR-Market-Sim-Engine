@@ -48,42 +48,45 @@ Loaded 830 trades from TradeDatabase.xlsx
   Max Drawdown:          36.88%
 
 === LLM Strategy Diagnostics ===
-### Structural Strengths
-- High reward-to-risk ratio (Avg Win 4.00R vs Avg Loss -0.92R)
-- Profit factor of 1.45 confirms aggregate profitability
+1. Structural Strengths
+   - High average win at 4.00R, capturing substantial gains when successful
+   - Positive expectancy of 0.31R confirms long-run profitability
+   - Profit factor of 1.45 indicates profitability after accounting for losses
 
-### Structural Weaknesses
-- Low win rate (25.06%) requires psychological resilience
-- Max drawdown of 36.88% indicates significant equity retracement periods
+2. Structural Weaknesses
+   - Low win rate of 25.06%, relying heavily on a few large wins
+   - Max drawdown of 36.88% indicates significant capital reduction periods
 
-### Risk Profile
-- High-risk profile driven by large drawdowns and low win rate
-- Profitability depends on outsized winners relative to frequent small losses
+3. Risk Profile
+   - High-risk strategy due to low win rate and large drawdowns
+   - May not suit all investors
 
-### Long-term Sustainability
-- Sustainable if capital reserves can absorb drawdowns
-- Requires strict discipline and consistent trade execution
+4. Long-term Sustainability
+   - High drawdown and psychological stress from consecutive losses
+     may challenge sustainability for many investors
 
-### Trade Distribution Asymmetry
-- Highly asymmetric: largest win (25.76R) far exceeds largest loss (-4.24R)
+5. Trade Distribution Asymmetry
+   - Large asymmetry between gains and losses
+   - A few large wins offset many small losses
 
-### Volatility of Returns
-- Std Dev of 3.11R indicates significant variability in outcomes
+6. Volatility of Returns
+   - Std Dev of 3.11R reflects significant volatility and unpredictable swings
 
-### Tail Risk Exposure
-- Positive tail risk from large winners is beneficial
-- 18 consecutive losses highlights negative tail risk
+7. Tail Risk Exposure
+   - Largest loss at -4.24R and max drawdown of 36.88% suggest moderate-high tail risk
 
-### Psychological Difficulty
-- Low win rate and long losing streaks make this system mentally demanding
+8. Psychological Difficulty
+   - Very high: up to 18 consecutive losses can be psychologically taxing
 
-### Capital Efficiency
-- Requires significant capital buffer to withstand drawdowns
+9. Capital Efficiency
+   - High drawdown and low win rate reduce capital efficiency
+   - Requires substantial capital buffers to maintain positions
 
-### Areas for Improvement
-- Refine entry criteria to improve win rate
-- Implement tighter risk controls to reduce max drawdown
-- Consider dynamic position sizing to manage volatility
+10. Areas for Improvement
+   - Increase win rate to stabilize returns and reduce psychological stress
+   - Implement risk management techniques to mitigate large drawdowns
+   - Refine entry and exit rules to dampen return volatility
+   - Explore diversification or hedging to protect against extreme losses
 ```
 
 ## Quickstart
