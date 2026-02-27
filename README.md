@@ -93,7 +93,7 @@ Loaded 830 trades from TradeDatabase.xlsx
 
 1. Install dependencies:
    ```bash
-   pip install pandas openpyxl openai
+   pip install -r requirements.txt
    ```
 2. Run the engine:
    ```bash
@@ -104,4 +104,11 @@ Loaded 830 trades from TradeDatabase.xlsx
    export OPENAI_API_KEY="your_api_key_here"
    ```
    If not configured, AI diagnostics will be skipped and all deterministic analytics will still run normally.
+
+## Future Improvements
+
+- Add time-based analytics (monthly/quarterly breakdowns)
+- Visualize the equity curve and drawdown periods
+- Support filtering by ticker, sector, or date range
+- Export reports to PDF or HTML
 

@@ -1,3 +1,9 @@
+"""Market Simulation Engine entry point.
+
+Loads historical trade data, computes performance analytics,
+and optionally generates AI-powered strategy diagnostics.
+"""
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -8,6 +14,7 @@ from src.diagnostics.llm_diagnostics import generate_strategy_diagnostics
 
 
 def main():
+    """Run the simulation engine."""
     file_path = "TradeDatabase.xlsx"
     initial_capital = 10000
 
